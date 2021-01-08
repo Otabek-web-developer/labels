@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -14,7 +15,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <br>
-        <Link href="./indexs"><a>Google</a></Link>
+        <Link href="./indexs"><a>about</a></Link>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
